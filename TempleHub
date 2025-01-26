@@ -1,0 +1,7 @@
+if game.PlaceId == 3956818381 then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zer0xOntop/TempleScriptospepitos/refs/heads/main/your%20mom%20is%20a%20lua"))()
+else
+    local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+    Fluent:Notify({Title = "Temple Hub", Content = "Unsupported Game", Duration = 3})
+end
